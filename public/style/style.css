@@ -1,0 +1,144 @@
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+/*******************
+GENERAL STYLES     /
+*******************/
+body {
+	background: #ffffff;
+	color: #461220;
+	font: normal 100%/1.4 sans-serif;
+	line-height: 2;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+section {
+	text-align: center;
+	padding: 1em;
+}
+#navigation {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #946e83;
+    text-align: left;
+    z-index: 100;
+}
+#navigation a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 80px;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+#navigation a:hover {
+    color: #ffffff;
+}
+#logo {
+    float: left;
+}
+#navigation ul {
+    float: right;
+}
+#navigation li {
+    display: inline;
+    margin-left: -30px;
+}
+#container {
+    position: relative;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer {
+	background: #0f0f0f;
+	max-width: 100%;
+	padding: 2em;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+    font-weight: bold;
+	color: #461220;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 1em;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+i {
+	font-style: italic;
+}
+
+div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clear {
+	clear: both;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    padding: .6em;
+}
+/*******************
+INITIAL SETUP      /
+*******************/
+#welcome {
+    color: #ffffff;
+    background: #946e83;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+#welcome h1 {
+    color: #ffffff;
+    font-size: 5em;
+    text-transform: lowercase;
+}
+#welcome h2 {
+    color: #ffffff;
+    font-size: 2em;
+}
+#setup td {
+    text-align: left;
+}
+#setup td input {
+    width: 90%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #946e83;
+}
+#setup h1 {
+    font-size: 1em;
+}
+#setup h2 {
+    font-size: .75em;
+}
+#setup .submit {
+    text-align: center;
+}
+#setup button {
+    color: #ffffff;
+    background: #946e83;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    padding: 1em;
+}
